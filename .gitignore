@@ -1,0 +1,20 @@
+# Personal health data: never publish
+data/
+*.jpg
+*.tcx
+*.fit
+*.gpx
+
+# Secrets (Huawei client ID/secret, tokens)
+.env
+*.env
+tokens*.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Huawei application documents (personal info)
+*.xlsx
+*.pdf
